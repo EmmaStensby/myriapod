@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1b6d8f5dbb1029a1968aea50cc216ae
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - butt_prefab: {fileID: 926271957824674859, guid: 84503a92415a3b31c9fb41f350028a51, type: 3}
+  - middle_prefab: {fileID: 1821587438670230521, guid: 663bf7038714980fb9da5ad5c119bbfc, type: 3}
+  - head_prefab: {fileID: 9126355928061747528, guid: bd1c660e380049b54afd5048afc603e4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

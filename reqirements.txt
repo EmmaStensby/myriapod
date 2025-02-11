@@ -1,0 +1,5 @@
+deap
+gym
+mlagents
+mlagents-envs
+numpy

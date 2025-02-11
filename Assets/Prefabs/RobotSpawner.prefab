@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1847155392759758681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1847155392759758680}
+  - component: {fileID: 1847155392759758679}
+  m_Layer: 0
+  m_Name: RobotSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1847155392759758680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847155392759758681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1847155392759758679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847155392759758681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b6d8f5dbb1029a1968aea50cc216ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alpha_legs: 10
+  alpha_feet: 40
+  beta: 2
+  contractions_buffer_length: 20
+  gamma: 0.005
+  sigma_a: 0
+  sigma_t: 0.05
+  omega: 3.14
+  clamp_amount: 70
+  climb_mode: 0
+  offset_variable: 0
+  ant_mode: 0
+  middle_sections: 40
+  leg_length: 0.5
+  leg_height: -0.5
+  foot_length: 1
+  point_mass: 0.05
+  body_mass_modifier: 1
+  drag: 0
+  angularDrag: 0.1
+  butt_prefab: {fileID: 926271957824674859, guid: 84503a92415a3b31c9fb41f350028a51, type: 3}
+  middle_prefab: {fileID: 1821587438670230521, guid: 663bf7038714980fb9da5ad5c119bbfc, type: 3}
+  head_prefab: {fileID: 9126355928061747528, guid: bd1c660e380049b54afd5048afc603e4, type: 3}
+  linear_spring_active_legs: 20000
+  linear_damper_active_legs: 0
+  linear_maxforce_active_legs: 3.402823e+38
+  rotation_spring_active_legs: 4000
+  rotation_damper_active_legs: 0
+  rotation_maxforce_active_legs: 3.402823e+38
+  linear_spring_active_feet: 20000
+  linear_damper_active_feet: 0
+  linear_maxforce_active_feet: 3.402823e+38
+  rotation_spring_active_feet: 4000
+  rotation_damper_active_feet: 0
+  rotation_maxforce_active_feet: 3.402823e+38
+  linear_spring_active_body1: 10000
+  linear_damper_active_body1: 0
+  linear_maxforce_active_body1: 3.402823e+38
+  rotation_spring_active_body1: 1000
+  rotation_damper_active_body1: 0
+  rotation_maxforce_active_body1: 3.402823e+38
+  linear_spring_active_body2: 1000
+  linear_damper_active_body2: 0
+  linear_maxforce_active_body2: 3.4028235e+38
+  rotation_spring_active_body2: 10000
+  rotation_damper_active_body2: 0
+  rotation_maxforce_active_body2: 3.402823e+38
+  linear_spring_active_body3: 2000
+  linear_damper_active_body3: 0
+  linear_maxforce_active_body3: 3.402823e+38
+  rotation_spring_active_body3: 0
+  rotation_damper_active_body3: 0
+  rotation_maxforce_active_body3: 3.402823e+38
